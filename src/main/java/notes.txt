@@ -1,0 +1,15 @@
+A Program to show how to pass arguments to ApplicationRunner interface run(ApplicationArguments args) method:
+Programs:
+* SpringBootRunnerApplication7Application.java
+* CustomApplicationRunner.java
+Notes:
+* The ApplicationArguments is the interface passed to run method, and below are the some methods of ApplicationArguments interface.
+* getNonOptionArgs method return the collection of non-option arguments.
+* getOptionNames() method return the names of all option arguments.
+Output:
+From run method in CustomApplicationRunner class.
+NonOptionArgs: [Test2, Test3]
+NonOptionArgs size: 2
+OptionNames: [spring.output.ansi.enabled, Test1]
+OptionNames size: 2
+From main method in SpringBootRunnerApplication7Application class.
